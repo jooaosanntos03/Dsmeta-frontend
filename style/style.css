@@ -137,3 +137,35 @@ main .dsmeta-card-container .dsmeta-card .dsmeta-card-table tr .dsmeta-card-noti
 main .dsmeta-card-container .dsmeta-card .dsmeta-card-table tr .dsmeta-card-notificacao img{
     width: 19px;
 }
+
+main .dsmeta-card-container .dsmeta-card .dsmeta-card-table .coluna-data-576{
+    display: none;
+}
+
+main .dsmeta-card-container .dsmeta-card .dsmeta-card-table .coluna-data-992{
+    display: none;
+}
+
+@media(min-width: 576px){
+    main .dsmeta-card-container .dsmeta-card .dsmeta-card-table .coluna-data-576{
+        display: table-cell;
+    }
+
+    main .dsmeta-card-container .dsmeta-card{
+        padding: 35px;
+    }
+
+    main .dsmeta-card-container .dsmeta-card .dsmeta-card-table tbody{
+        font-size: 18px;
+    }
+
+    main .dsmeta-card-container .dsmeta-card .dsmeta-card-table tbody tr{
+        height: 55px;
+    }
+}
+
+@media(min-width: 992px){
+    main .dsmeta-card-container .dsmeta-card .dsmeta-card-table .coluna-data-992{
+        display: table-cell;
+    }
+}
